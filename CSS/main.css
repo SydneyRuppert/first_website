@@ -1,0 +1,117 @@
+body, html{
+    height:fit-content;
+    margin:0px;
+}
+body{
+    background-color: antiquewhite;
+    font-size:medium;
+    padding: auto;
+
+}
+
+nav li{
+    display:inline;
+    margin:20px;
+}
+h1{
+    font-family:'Courier New', Courier, monospace;
+    align-content: center;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+nav ul{
+    background-color: pink;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    list-style-type:none;
+    width: 100%;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+nav a{
+    color:black;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    left:50%;
+}
+
+nav a:hover{
+    color:whitesmoke;
+}
+
+.hero-image{
+    background-image: url("../Images/Switzerland 2.jpg");
+    height: 200px;
+    width: 100%;
+    padding: auto;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 10px;
+}
+
+.hero-text{
+    color:paleturquoise;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top:30%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+#main{
+    width: 66%;
+    float:left;
+    margin-left: 10px;
+    height:fit-content;
+    border:5px solid lightblue;
+    background-color: aliceblue;
+}
+#side{
+    width: 25%;
+    height: 100%;
+    float:right;
+    margin-right: 0px;
+    padding-bottom: 0%;
+    height:90%;
+    padding:20px;
+    border: 5px solid lightblue;
+    background-color: aliceblue;
+}
+
+#profile-image{
+    width:100%;
+    border:5px solid pink;
+}
+
+#profile{
+    text-align: center;
+
+}
+.side-articles ul{
+    list-style-type: none;
+    padding-left:0px;
+
+}
+#profile h2{
+    display: inline;
+}
+#profile-details{
+    margin-right: 30px;
+    text-align: center;
+}
+.side-articles,.main-articles{
+    padding:10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.side-articles{
+    text-align: center;
+}
+.main-articles{
+    text-align: center;
+}
