@@ -28,6 +28,7 @@ nav ul{
     width: 100%;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
 }
 nav a{
     color:black;
@@ -45,12 +46,13 @@ nav a:hover{
     background-image: url("../Images/Switzerland 2.jpg");
     height: 200px;
     width: 100%;
-    padding: auto;
+    padding: 20px;
+    margin-trim: 20px;
     align-items: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    border: 10px;
+    border: 10px solid antiquewhite;
 }
 
 .hero-text{
@@ -114,4 +116,13 @@ nav a:hover{
 }
 .main-articles{
     text-align: center;
+}
+
+#Bloggers{
+
+    width: 90%;
+    float:center;
+    margin: 15px;
+    height:fit-content;
+   text-align: center;
 }
